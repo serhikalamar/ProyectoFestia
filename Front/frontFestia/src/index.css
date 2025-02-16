@@ -1,3 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #AA21A0;
+  --color-dark-purple: #4B0743;
+  --color-deep-pink: #651A5D;
+  --color-violet: #8B1D82;
+  --color-royal-purple: #AA21A0;
+  --color-lavender: #CD2CC5;
+  --color-magenta: #E94CE4;
+  --color-soft-pink: #FBD2FC;
+  --color-pale-pink: #FDE9FE;
+  --color-light-pink: #FFF4FF;
+  --color-white: #FFFFFF;
+}
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -14,60 +30,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#000000, #4B0743);
+  background-attachment: fixed;
 }
-/*
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-*/

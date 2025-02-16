@@ -1,38 +1,15 @@
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+@import "tailwindcss";
 
-#titulo {
-    font-size: 2.5em;
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+@theme {
+  --color-primary: #AA21A0;
+  --color-dark-purple: #4B0743;
+  --color-deep-pink: #651A5D;
+  --color-violet: #8B1D82;
+  --color-royal-purple: #AA21A0;
+  --color-lavender: #CD2CC5;
+  --color-magenta: #E94CE4;
+  --color-soft-pink: #FBD2FC;
+  --color-pale-pink: #FDE9FE;
+  --color-light-pink: #FFF4FF;
+  --color-white: #FFFFFF;
 }
