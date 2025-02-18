@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #AA21A0;
+  --color-dark-purple: #4B0743;
+  --color-deep-pink: #651A5D;
+  --color-violet: #8B1D82;
+  --color-royal-purple: #AA21A0;
+  --color-lavender: #CD2CC5;
+  --color-magenta: #E94CE4;
+  --color-soft-pink: #FBD2FC;
+  --color-pale-pink: #FDE9FE;
+  --color-light-pink: #FFF4FF;
+  --color-white: #FFFFFF;
+}
