@@ -33,3 +33,8 @@
   background: linear-gradient(#000000, #4B0743);
   background-attachment: fixed;
 }
+
+main{
+  width: 1280px;
+  margin:auto;
+}
