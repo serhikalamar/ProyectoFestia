@@ -1,8 +1,8 @@
-import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex flex-row w-full h-[75px] p-2 border-b-1 border-primary">
+    <header className="flex flex-row w-full h-[75px] p-2 mb-8 border-b-1 border-primary">
       <div className="flex mx-auto flex-row w-[1270px]">
         <div className=" basis-[25%] content-center">
           <h1 id="titulo" className="mr-auto my-auto text-[24px]">
@@ -12,14 +12,14 @@ function Header() {
         <nav className="flex basis-[50%] ">
           <ul className="flex w-64 flex-row mx-auto my-auto justify-around">
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/" className="hover:underline">
                 Hoy
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/calendar" className="hover:underline">
                 Calendario
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
