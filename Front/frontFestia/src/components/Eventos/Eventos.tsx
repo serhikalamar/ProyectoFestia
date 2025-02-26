@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import datosFake from "./datosFake.json";
 
 // Se define una interfaz Evento para tipar los eventos.
 interface Evento {
@@ -27,14 +27,18 @@ function Eventos() {
     }, []);
 
     return (
-        <div className="containerEvent">
+        <div className="max-w-4xl mx-auto p-4">
             {eventos.map(evento => (
-                <div key={evento.id} className="evento">
-                    <h2>{evento.nombre}</h2>
-                    <p>{evento.fecha}</p>
+                <div 
+                    key={evento.id} 
+                    className="bg-white shadow-md rounded-2xl p-6 mb-4 border border-gray-200 hover:shadow-lg transition"
+                >
+                    <h2 className="text-xl font-semibold text-gray-800">{evento.nombre}</h2>
+                    <p className="text-gray-600">{evento.fecha}</p>
                 </div>
             ))}
         </div>
+
     );
 }
 

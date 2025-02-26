@@ -1,0 +1,22 @@
+{
+    "eventos": [
+      {
+        "dia": "2025-03-01",
+        "discoteca": "Discoteca A",
+        "dj": "DJ Alpha",
+        "precio": 20
+      },
+      {
+        "dia": "2025-03-02",
+        "discoteca": "Discoteca B",
+        "dj": "DJ Bravo",
+        "precio": 25
+      },
+      {
+        "dia": "2025-03-03",
+        "discoteca": "Discoteca C",
+        "dj": "DJ Charlie",
+        "precio": 30
+      }
+    ]
+  }
