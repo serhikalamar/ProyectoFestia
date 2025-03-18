@@ -1,22 +1,31 @@
 {
-    "eventos": [
-      {
-        "dia": "2025-03-01",
-        "discoteca": "Discoteca A",
-        "dj": "DJ Alpha",
-        "precio": 20
-      },
-      {
-        "dia": "2025-03-02",
-        "discoteca": "Discoteca B",
-        "dj": "DJ Bravo",
-        "precio": 25
-      },
-      {
-        "dia": "2025-03-03",
-        "discoteca": "Discoteca C",
-        "dj": "DJ Charlie",
-        "precio": 30
-      }
-    ]
-  }
+  "eventos": [
+    {
+      "id": 1,
+      "fecha": "2025-03-01",
+      "nombre": "Gremi BioSexo",
+      "discoteca": "Discoteca A",
+      "dj": "DJ Alpha",
+      "precio": 20,
+      "descripcion": "Una noche llena de energía y pasión en Discoteca A con DJ Alpha en los controles. Disfruta de la mejor música electrónica y un ambiente vibrante con luces y efectos especiales que te harán vivir una experiencia inolvidable."
+    },
+    {
+      "id": 2,
+      "fecha": "2025-03-02",
+      "nombre": "Fiesta Kalamar",
+      "discoteca": "Discoteca B",
+      "dj": "DJ Bravo",
+      "precio": 25,
+      "descripcion": "Sumérgete en la Fiesta Kalamar en Discoteca B con DJ Bravo. Una fusión de ritmos latinos, reguetón y electrónica para que no pares de bailar hasta el amanecer. ¡No te pierdas esta fiesta única llena de sorpresas!"
+    },
+    {
+      "id": 3,
+      "fecha": "2025-03-03",
+      "nombre": "Cocina con Sergio",
+      "discoteca": "Discoteca C",
+      "dj": "DJ Charlie",
+      "precio": 30,
+      "descripcion": "Una experiencia gastronómica única con el chef Sergio en Discoteca C, acompañado por la mejor música de DJ Charlie. Disfruta de una noche de sabores exquisitos, cócteles exclusivos y un ambiente sofisticado."
+    }
+  ]
+}

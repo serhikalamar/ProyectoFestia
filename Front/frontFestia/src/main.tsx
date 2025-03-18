@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import "./index.css";
 import Calendar from "./pages/calendar";
 import Main from "./pages/home";
+import EventoDetalle from "./components/Eventos/EventoDetalle";
+import datosFake from "./components/Eventos/datosFake.json";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
         path: "/calendar",
         element: <Calendar />,
       },
+      {
+        path: "/evento/:id",
+        element: <EventoDetalle datos={datosFake}/>
+      }
     ],
   },
 ]);
